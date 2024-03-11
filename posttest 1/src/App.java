@@ -34,7 +34,7 @@ public class App {
                 String nama_produk = br.readLine();
                 System.out.print("Insert Type :");
                 String jenis_produk = br.readLine();
-                System.out.print("Insert Prize :");
+                System.out.print("Insert Price :");
                 String harga_produk = br.readLine();
                 System.out.print("Insert Stock :");
                 int stok_produk = Integer.parseInt(br.readLine());
@@ -69,7 +69,7 @@ public class App {
                     System.out.println("1. Update ID");
                     System.out.println("2. Update Name");
                     System.out.println("3. Update Type");
-                    System.out.println("4. Update Prize");
+                    System.out.println("4. Update Price");
                     System.out.println("5. Update Stock");
                     System.out.println("6. Update All");
                     System.out.println("0. Main Menu");
@@ -95,7 +95,7 @@ public class App {
                     }
 
                     else if (updatemenu.equals("4")) {
-                        System.out.print("insert new Prize : Rp");
+                        System.out.print("insert new Price : Rp");
                         dataproduk.get(update).harga_produk = br.readLine();
                         System.out.println("Product Updated");
                     }
@@ -114,7 +114,7 @@ public class App {
                         dataproduk.get(update).nama_produk = br.readLine();
                         System.out.print("Insert Type :");
                         dataproduk.get(update).jenis_produk = br.readLine();
-                        System.out.print("Insert Prize :");
+                        System.out.print("Insert Price :");
                         dataproduk.get(update).harga_produk = br.readLine();
                         System.out.print("Insert Stock :");
                         dataproduk.get(update).stok_produk = Integer.parseInt(br.readLine());
