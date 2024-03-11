@@ -12,9 +12,9 @@ public class Produk {
 
     void display(){
         System.out.println("ID : "+id_produk);
-        System.out.println("Nama : "+nama_produk);
-        System.out.println("Jenis : "+jenis_produk);
-        System.out.println("Harga : Rp "+harga_produk);
-        System.out.println("Stok : "+stok_produk);
+        System.out.println("Name : "+nama_produk);
+        System.out.println("Type : "+jenis_produk);
+        System.out.println("Price : Rp "+harga_produk);
+        System.out.println("Stock : "+stok_produk);
     }
 }
